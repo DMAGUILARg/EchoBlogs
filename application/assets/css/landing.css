@@ -1,0 +1,111 @@
+/* Asegura que el footer se mantenga al final de la página */
+html,
+body {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+}
+
+.container {
+	flex: 1;
+}
+
+/* Estilos para el logo */
+.logo {
+	width: 80px;
+	height: 80px;
+}
+
+/* Estilos para la barra de navegación de inicio de sesión */
+.nav-login {
+	background-color: #c95c7a;
+}
+
+/* Estilos para el botón de inicio de sesión */
+.btn-login {
+	background: linear-gradient(135deg, #dcebaf, #c95c7a);
+	border: none;
+	border-radius: 50px;
+	color: white;
+	padding: 10px 20px;
+	cursor: pointer;
+	margin-right: 24px;
+}
+
+.btn-login:hover {
+	background-color: #c87e42;
+}
+
+/* Estilos para el contenedor de contenido */
+.contenedor-1 {
+	background: #f3f3f3;
+	border-radius: 20px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	padding: 20px;
+	margin-top: 20px;
+}
+
+/* Estilos para el botón de registro */
+.btn-registro {
+	width: 100%;
+	padding: 12px;
+	background: linear-gradient(135deg, #dcebaf, #c95c7a);
+	color: #ffffff;
+	border: none;
+	border-radius: 25px;
+	cursor: pointer;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	transition: all 0.5s ease-in-out;
+}
+
+.btn-registro:hover {
+	background: linear-gradient(135deg, #c95c7a, #dcebaf);
+	transform: scale(1.05);
+	box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos para el footer */
+.footer {
+	background-color: #014e50;
+	color: white;
+	text-align: center;
+	padding: 20px 0;
+	position: relative;
+	bottom: 0;
+	width: 100%;
+}
+
+.footer .social-icons {
+	margin-bottom: 10px;
+}
+
+.footer .social-icons a {
+	margin: 0 50px;
+	display: inline-block;
+	color: white;
+}
+
+.footer .social-icons img {
+	width: 30px;
+	height: 30px;
+}
+
+.footer p {
+	margin: 0;
+}
+
+/* Estilos para los iconos personalizados */
+.custom-icon {
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+	vertical-align: middle;
+	color: #f3f3f3;
+}
